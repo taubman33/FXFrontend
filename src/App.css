@@ -1,0 +1,207 @@
+.App {
+  display: flex;
+  background-image: url("https://i.imgur.com/qT1ICw7.jpg") ;
+
+  background-position: cover;
+  background-attachment: fixed;
+ 
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 0 0 12em;
+  font-family: 'Lora', serif;
+}
+
+.aside { 
+  /* display: block; */
+  background-color: grey;
+  border: 3px solid #FFC300;
+  order: -1;
+  width: 20rem;
+  margin: 0;
+  margin-top: 2rem;
+  }
+
+.auth-container{
+  background-color: grey;
+  text-align: center;
+  margin-bottom: 5em;
+
+}
+
+button{
+  background-color:black;
+  border: 1px solid #ffc300;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 5px;
+  
+}
+
+.create-form {
+text-align: center;
+background-color: grey;
+border: 1px solid #ffc300;
+padding: 30px;
+margin-top: 5rem;
+margin-left: 22rem;
+}
+
+.effects {
+  width: 50%
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 15px;
+  border-top: 2px solid #FFC300
+}
+
+.form {
+  padding: 1em;
+}
+
+.form-Container{
+background-color: grey;
+margin-bottom: 3rem;
+
+
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  color: #ECECE6;
+}
+
+h2{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h4{
+  color:white;
+  letter-spacing: 3px;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  border: 3px solid#FFC300;
+  text-align: center;
+
+}
+
+.header-bottom {
+  margin-top: -2em;
+}
+
+.header-text {
+color: white;
+font-style: italic;
+font-size: 55px;
+letter-spacing: 2rem;
+padding: 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.info-container {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+label{
+  padding: 1em;
+}
+
+li{
+list-style-type: none;
+}
+
+.links {
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+}
+
+.main {
+margin-bottom: 5rem;
+}
+
+.mainPart {
+  display: flex;
+}
+
+.nav {
+  border-top: 1px solid #FFC300
+}
+
+.pedalInfo {
+width: 100%;
+}
+
+.pedalCard {
+  background-color: black;
+  border: 1px solid #FFC300;
+  color: white;
+  width: 60%;
+  padding: 1em;
+  margin: 0;
+  margin-left: 20rem;
+  margin-bottom: 1rem;
+  margin-top:  3rem;
+  text-align: center;
+  /* width: 90%; */
+  order: 1;
+}
+
+.searchbar-container {
+  width: 100%;
+}
+
+#searchBar{
+  width:95%;
+  margin-left:3px;
+  padding: 5px
+}
+
+
+.title {
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+.App {
+ text-align: center;
+  }
+
+.aside{
+ width:99%
+  }
+.header-bottom{
+  display: none;
+}
+
+  h1{ 
+    font-size: 39px;
+  }
+
+.pedalCard{
+  margin-left: 2rem;
+}
+
+
+}
+
+
+
